@@ -1,0 +1,38 @@
+.cat-image {
+  max-width: 450px;
+}
+.cat-info {
+  display: flex;
+  margin-top: 20px;
+}
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  width: 650px;
+}
+.description,
+.temperament {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+.loader {
+  font-size: 20px;
+}
+.error {
+  font-size: 18px;
+  color: red;
+}
